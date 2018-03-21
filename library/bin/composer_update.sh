@@ -20,6 +20,11 @@ pushd /opt/irontec/ivozprovider/microservices/workers
     composer install $*
 popd
 
+pushd /opt/irontec/ivozprovider/microservices/rating
+    rm -fr composer.lock vendor
+    composer install $*
+popd
+
 pushd /opt/irontec/ivozprovider/scheme
     rm -fr composer.lock vendor
     composer install $*
