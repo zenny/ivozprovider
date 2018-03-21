@@ -67,6 +67,8 @@ Feature: Retrieve recordings
               "externallyextraopts": "",
               "recordingsLimitMB": null,
               "recordingsLimitEmail": "",
+              "billingMethod": "postpaid",
+              "balance": 0,
               "id": 1,
               "language": 1,
               "mediaRelaySets": 1,

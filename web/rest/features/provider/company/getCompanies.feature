@@ -59,6 +59,8 @@ Feature: Retrieve companies
           "externallyextraopts": "",
           "recordingsLimitMB": null,
           "recordingsLimitEmail": "",
+          "billingMethod": "postpaid",
+          "balance": 0,
           "id": 1,
           "language": {
               "iden": "es",
